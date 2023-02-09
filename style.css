@@ -104,6 +104,12 @@ li{
   list-style: none;
   margin-bottom: 100px;
 }
+.ogimage{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0.01;
+}
 a{
   text-decoration: none;
   color: floralwhite;
