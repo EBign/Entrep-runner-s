@@ -165,20 +165,30 @@ nav a{
 .case, .casebis{
   width: 120px;
   height: 120px;
-  border-radius: 120px;
-  overflow: hidden;
-  background-color: grey;
+  background-color: transparent;
   margin-right: 30px;
-  border: #b38ac3 3px solid;
 }
 .casebis{
   transition: 0.5s;
   animation: haut 2s infinite;
 }
+#grey{
+  border-radius: 120px;
+  background-color: grey;
+  border: #b38ac3 3px solid;
+}
 #imgblur{
   width: 120px;
+  border-radius: 120px;
   height: auto;
   filter: blur(4px);
+  border: #b38ac3 3px solid;
+}
+.case p, .casebis p{
+  width: 100%;
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
 }
 #choisir{
   width: 120px;
